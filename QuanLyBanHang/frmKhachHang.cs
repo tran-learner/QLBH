@@ -229,18 +229,26 @@ namespace QuanLyBanHang
         private void btnLuu_Click(object sender, EventArgs e)
         {
             //Mở kết nối
-            conn.Open();
+            //conn.Open();
             if(Them)
             {
                 try
                 {
+                    if (this.txtMaKH.Text.Trim() == "" || this.txtTenCty.Text.Trim() == "" ||
+                        this.cbThanhPho.SelectedValue == null ||
+                        this.cbThanhPho.SelectedValue.ToString() == "")
+                    {
+                        MessageBox.Show("Mã khách hàng, tên cong ty và thành phố không được để trống", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    conn.Open();
                     //Thực hiện lệnh
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = conn;
                     cmd.CommandType = CommandType.Text;
                     //Lệnh Insert InTo
                     cmd.CommandText = System.String.Concat("Insert into KhachHang values(" + "'" + 
-                        this.txtMaKH.Text.ToString() + "','" + this.txtTenCty.Text.ToString() + "','" +
+                        this.txtMaKH.Text.ToString() + "',N'" + this.txtTenCty.Text.ToString() + "',N'" +
                         this.txtDiachi.Text.ToString() + "','" + this.cbThanhPho.SelectedValue.ToString() + "','" +
                         this.txtDienthoai.Text.ToString() + "')");
                     cmd.CommandType = CommandType.Text;
@@ -254,6 +262,11 @@ namespace QuanLyBanHang
                 {
                     MessageBox.Show("Không thêm được. Lỗi rồi!");
                 }
+                finally
+                {
+                    //Đóng kết nối
+                    conn.Close();
+                }
             }//if
 
             //for updating data
@@ -261,6 +274,7 @@ namespace QuanLyBanHang
             {
                 try
                 {
+                    conn.Open();
                     //Thực hiện lệnh
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = conn;
@@ -270,8 +284,8 @@ namespace QuanLyBanHang
                     //MaKH hiện hành
                     string strMAKH = dgvKhachHang.Rows[r].Cells[0].Value.ToString();
                     //Câu lệnh SQL
-                    cmd.CommandText = System.String.Concat("Update KhachHang Set TenCty='"+
-                        this.txtTenCty.Text.ToString() + "', Diachi ='" + 
+                    cmd.CommandText = System.String.Concat("Update KhachHang Set TenCty=N'"+
+                        this.txtTenCty.Text.ToString() + "', Diachi =N'" + 
                         this.txtDiachi.Text.ToString() + "', ThanhPho ='" + this.cbThanhPho.SelectedValue.ToString()
                         + "', DienThoai ='" + this.txtDienthoai.Text.ToString() + "', MaKH ='" + this.txtMaKH.Text.ToString() + 
                         "' where MaKH ='" + strMAKH + "'");
@@ -287,9 +301,14 @@ namespace QuanLyBanHang
                 {
                     MessageBox.Show("Không sửa được. Lỗi rồi!");
                 }
+                finally
+                {
+                    //Đóng kết nối
+                    conn.Close();
+                }
             }
             //Đóng kết nối
-            conn.Close();
+            //conn.Close();
         }
     }
 }

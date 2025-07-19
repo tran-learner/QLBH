@@ -190,12 +190,24 @@ namespace QuanLyBanHang
         private void btnLuu_Click(object sender, EventArgs e)
         {
             //Mở kết nối
-            conn.Open();
             if(Them)
             {
                 try
                 {
                     //Thực hiện lệnh
+                    if (this.txThanhPho.Text.Trim() == "")
+                    {
+                        MessageBox.Show("Mã thành phố không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        this.txThanhPho.Focus();
+                        return;
+                    }
+                    if (this.txtTenThanhPho.Text.Trim() == "")
+                    {
+                        MessageBox.Show("Tên thành phố không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        this.txtTenThanhPho.Focus();
+                        return;
+                    }
+                    conn.Open();
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = conn;
                     cmd.CommandType = CommandType.Text;
@@ -213,6 +225,11 @@ namespace QuanLyBanHang
                 {
                     MessageBox.Show("Không thêm được. Lỗi rồi!");
                 }
+                finally
+                {
+                    //Đóng kết nối
+                    conn.Close();
+                }
             }//if
 
             //for updating data
@@ -220,6 +237,19 @@ namespace QuanLyBanHang
             {
                 try
                 {
+                    if (this.txThanhPho.Text.Trim() == "")
+                    {
+                        MessageBox.Show("Mã thành phố không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        this.txThanhPho.Focus();
+                        return;
+                    }
+                    if (this.txtTenThanhPho.Text.Trim() == "")
+                    {
+                        MessageBox.Show("Tên thành phố không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        this.txtTenThanhPho.Focus();
+                        return;
+                    }
+                    conn.Open();
                     //Thực hiện lệnh
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = conn;
@@ -228,9 +258,10 @@ namespace QuanLyBanHang
                     int r = dgvTHANHPHO.CurrentCell.RowIndex;
                     //MaTP hiện hành
                     string strTHANHPHO = dgvTHANHPHO.Rows[r].Cells[0].Value.ToString();
+                    string strNewTHANHPHO = this.txThanhPho.Text.ToString();
                     //Câu lệnh SQL
                     cmd.CommandText = System.String.Concat("Update ThanhPho Set TenThanhPho = N'"+
-                        this.txtTenThanhPho.Text.ToString() + "' where ThanhPho ='" + strTHANHPHO + "'");
+                        this.txtTenThanhPho.Text.ToString() + "', ThanhPho = '"+strNewTHANHPHO+"' where ThanhPho ='" + strTHANHPHO + "'");
                     //Cập nhật
                     cmd.CommandType = CommandType.Text;
                     cmd.ExecuteNonQuery();
@@ -243,9 +274,14 @@ namespace QuanLyBanHang
                 {
                     MessageBox.Show("Không sửa được. Lỗi rồi!");
                 }
+                finally
+                {
+                    //Đóng kết nối
+                    conn.Close();
+                }
             }
             //Đóng kết nối
-            conn.Close();
+            //conn.Close();
         }
     }
 }

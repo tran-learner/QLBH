@@ -3,6 +3,26 @@
   "WorkspaceRootPath": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|c:\\users\\myngo\\downloads\\_main\\3\\3rd\\243_sqa\\project01\\quanlybanhang\\quanlybanhang\\frmkhachhangtheothanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmkhachhangtheothanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -27,10 +47,6 @@
       "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -47,24 +63,12 @@
       "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmhoadontheokhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmsanpham.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmthanhpho.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmtacgia.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -77,10 +81,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|solutionrelative:quanlybanhang\\frmkhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{50DAC9E6-11C8-4E75-8C76-195EC459F5A8}|QuanLyBanHang\\QuanLyBanHang.csproj|C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\quanlybanhang\\frmhoadontheokhachhang.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
@@ -110,20 +110,21 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Form1.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\Form1.cs",
               "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\Form1.cs",
               "RelativeToolTip": "QuanLyBanHang\\Form1.cs",
-              "ViewState": "AgIAAGoAAAAAAAAAAADwv3QAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFEAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T14:10:53.377Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 10,
               "Title": "Form1.cs [Design]",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\Form1.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\Form1.cs",
@@ -131,36 +132,75 @@
               "RelativeToolTip": "QuanLyBanHang\\Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T14:10:51.009Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "frmKhachHangTheoThanhPho.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
-              "RelativeDocumentMoniker": "QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
-              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHangTheoThanhPho.cs [Design]",
-              "RelativeToolTip": "QuanLyBanHang\\frmKhachHangTheoThanhPho.cs [Design]",
+              "DocumentIndex": 2,
+              "Title": "frmKhachHang.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QuanLyBanHang\\frmKhachHang.cs",
+              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs [Design]",
+              "RelativeToolTip": "QuanLyBanHang\\frmKhachHang.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:03:05.924Z",
+              "WhenOpened": "2025-07-01T15:02:48.105Z",
               "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "frmKhachHang.cs",
+              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs",
+              "RelativeDocumentMoniker": "QuanLyBanHang\\frmKhachHang.cs",
+              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs",
+              "RelativeToolTip": "QuanLyBanHang\\frmKhachHang.cs",
+              "ViewState": "AgIAAOMAAAAAAAAAAAAqwPIAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:43:45.282Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmThanhPho.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs",
+              "RelativeDocumentMoniker": "QuanLyBanHang\\frmThanhPho.cs",
+              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs [Design]",
+              "RelativeToolTip": "QuanLyBanHang\\frmThanhPho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T14:09:54.707Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmThanhPho.cs",
+              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs",
+              "RelativeDocumentMoniker": "QuanLyBanHang\\frmThanhPho.cs",
+              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs",
+              "RelativeToolTip": "QuanLyBanHang\\frmThanhPho.cs",
+              "ViewState": "AgIAAN8AAAAAAAAAAAAkwPIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:03:51.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "frmKhachHangTheoThanhPho.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
               "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
               "RelativeToolTip": "QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAIwBsAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwBsAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T15:03:08.255Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "frmHoaDon.Designer.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmHoaDon.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmHoaDon.Designer.cs",
@@ -172,7 +212,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
+              "Title": "frmKhachHangTheoThanhPho.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
+              "RelativeDocumentMoniker": "QuanLyBanHang\\frmKhachHangTheoThanhPho.cs",
+              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHangTheoThanhPho.cs [Design]",
+              "RelativeToolTip": "QuanLyBanHang\\frmKhachHangTheoThanhPho.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-01T15:03:05.924Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Form2.cs [Design]",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\Form2.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\Form2.cs",
@@ -183,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 12,
               "Title": "Form3.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\Form3.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\Form3.cs",
@@ -195,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 8,
               "Title": "Form2.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\Form2.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\Form2.cs",
@@ -207,7 +259,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 13,
               "Title": "frmHoaDon.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmHoaDon.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmHoaDon.cs",
@@ -219,7 +271,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "frmHoaDonTheoKhachHang.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmHoaDonTheoKhachHang.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmHoaDonTheoKhachHang.cs",
@@ -231,7 +283,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 11,
               "Title": "Form1.Designer.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\Form1.Designer.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\Form1.Designer.cs",
@@ -239,23 +291,12 @@
               "RelativeToolTip": "QuanLyBanHang\\Form1.Designer.cs",
               "ViewState": "AgIAALEBAAAAAAAAAAAkwMkBAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:10:38.942Z"
+              "WhenOpened": "2025-07-01T14:10:38.942Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "frmKhachHang.cs",
-              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs",
-              "RelativeDocumentMoniker": "QuanLyBanHang\\frmKhachHang.cs",
-              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs",
-              "RelativeToolTip": "QuanLyBanHang\\frmKhachHang.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAIwBMAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:43:45.282Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 15,
               "Title": "frmNhanVien.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmNhanVien.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmNhanVien.cs",
@@ -267,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 16,
               "Title": "frmSanPham.cs",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmSanPham.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmSanPham.cs",
@@ -279,19 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "frmThanhPho.cs",
-              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs",
-              "RelativeDocumentMoniker": "QuanLyBanHang\\frmThanhPho.cs",
-              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs",
-              "RelativeToolTip": "QuanLyBanHang\\frmThanhPho.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAyAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:03:51.789Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 17,
               "Title": "frmTacGia.cs [Design]",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmTacGia.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmTacGia.cs",
@@ -302,7 +331,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 18,
               "Title": "frmSanPham.cs [Design]",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmSanPham.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmSanPham.cs",
@@ -313,18 +342,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "frmThanhPho.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs",
-              "RelativeDocumentMoniker": "QuanLyBanHang\\frmThanhPho.cs",
-              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmThanhPho.cs [Design]",
-              "RelativeToolTip": "QuanLyBanHang\\frmThanhPho.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T14:09:54.707Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "frmNhanVien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmNhanVien.cs",
               "RelativeDocumentMoniker": "QuanLyBanHang\\frmNhanVien.cs",
@@ -332,17 +350,6 @@
               "RelativeToolTip": "QuanLyBanHang\\frmNhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-07-01T15:03:16.737Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 19,
-              "Title": "frmKhachHang.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs",
-              "RelativeDocumentMoniker": "QuanLyBanHang\\frmKhachHang.cs",
-              "ToolTip": "C:\\Users\\myngo\\Downloads\\_main\\3\\3rd\\243_SQA\\Project01\\QuanLyBanHang\\QuanLyBanHang\\frmKhachHang.cs [Design]",
-              "RelativeToolTip": "QuanLyBanHang\\frmKhachHang.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-01T15:02:48.105Z"
             },
             {
               "$type": "Document",
@@ -365,7 +372,8 @@
               "RelativeToolTip": "QuanLyBanHang\\App.config",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
-              "WhenOpened": "2025-07-01T14:10:22.647Z"
+              "WhenOpened": "2025-07-01T14:10:22.647Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",

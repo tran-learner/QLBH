@@ -228,6 +228,43 @@ namespace QuanLyBanHang
 
         private void btnLuu_Click(object sender, EventArgs e)
         {
+            // kiểm tra input
+            if (string.IsNullOrWhiteSpace(txtMaKH.Text))
+            {
+                MessageBox.Show("Mã khách hàng không được để trống.");
+                return;
+            }
+            if (txtMaKH.Text.Length > 10)
+            {
+                MessageBox.Show("Mã khách hàng không được dài quá 10 ký tự.");
+                return;
+            }
+
+            if (string.IsNullOrWhiteSpace(txtTenCty.Text))
+            {
+                MessageBox.Show("Tên công ty không được để trống.");
+                return;
+            }
+            if (txtTenCty.Text.Length > 50)
+            {
+                MessageBox.Show("Tên công ty không được dài quá 50 ký tự.");
+                return;
+            }
+
+            if (txtDiachi.Text.Length > 100)
+            {
+                MessageBox.Show("Địa chỉ không được dài quá 100 ký tự.");
+                txtMaKH.Focus();
+                return;
+            }
+
+            if (txtDienthoai.Text.Length > 10)
+            {
+                MessageBox.Show("Điện thoại không được dài quá 10 ký tự.");
+                txtMaKH.Focus();
+                return;
+            }
+
             //Mở kết nối
             conn.Open();
             if(Them)
@@ -240,7 +277,7 @@ namespace QuanLyBanHang
                     cmd.CommandType = CommandType.Text;
                     //Lệnh Insert InTo
                     cmd.CommandText = System.String.Concat("Insert into KhachHang values(" + "'" + 
-                        this.txtMaKH.Text.ToString() + "','" + this.txtTenCty.Text.ToString() + "','" +
+                        this.txtMaKH.Text.ToString() + "', N'" + this.txtTenCty.Text.ToString() + "', N'" +
                         this.txtDiachi.Text.ToString() + "','" + this.cbThanhPho.SelectedValue.ToString() + "','" +
                         this.txtDienthoai.Text.ToString() + "')");
                     cmd.CommandType = CommandType.Text;
@@ -270,8 +307,8 @@ namespace QuanLyBanHang
                     //MaKH hiện hành
                     string strMAKH = dgvKhachHang.Rows[r].Cells[0].Value.ToString();
                     //Câu lệnh SQL
-                    cmd.CommandText = System.String.Concat("Update KhachHang Set TenCty='"+
-                        this.txtTenCty.Text.ToString() + "', Diachi ='" + 
+                    cmd.CommandText = System.String.Concat("Update KhachHang Set TenCty= N'"+
+                        this.txtTenCty.Text.ToString() + "', Diachi = N'" + 
                         this.txtDiachi.Text.ToString() + "', ThanhPho ='" + this.cbThanhPho.SelectedValue.ToString()
                         + "', DienThoai ='" + this.txtDienthoai.Text.ToString() + "', MaKH ='" + this.txtMaKH.Text.ToString() + 
                         "' where MaKH ='" + strMAKH + "'");

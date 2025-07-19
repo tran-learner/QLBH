@@ -19,7 +19,9 @@ namespace QuanLyBanHang
         //Chuỗi kết nối
         //string strConnectionString = @"Server=.;Database=QuanLyBanHang;Integrated Security=True";
         //or
-        string strConnectionString = @"Data Source=.;Initial Catalog=QuanLyBanHang;Integrated Security=SSPI";
+        //string strConnectionString=@"Data Source=KIMTRAN;Initial Catalog=QuanLyBanHang;Integrated Security=SSPI";
+        string strConnectionString = @"Server=.\SQLEXPRESS;Database=QuanLyBanHang;Integrated Security=True";
+
 
         //Đối tượng kết nối
         SqlConnection conn = null;
@@ -197,6 +199,7 @@ namespace QuanLyBanHang
             this.cbMaNV.DisplayMember = "Ten";
             this.cbMaNV.ValueMember = "MaNV";
 
+            this.txtMaHD.Enabled = true;
             //Đưa con trỏ đến TextField txtMaHD
             this.txtMaHD.Focus();
         }
@@ -220,6 +223,7 @@ namespace QuanLyBanHang
             int r = dgvHoaDon.CurrentCell.RowIndex;
             //Chuyển thông tin lên panel
             this.txtMaHD.Text = dgvHoaDon.Rows[r].Cells[0].Value.ToString();
+            this.txtMaHD.Enabled = false; //Không cho sửa mã hóa đơn
             this.cbMaKH.SelectedValue = dgvHoaDon.Rows[r].Cells[1].Value.ToString();
             this.cbMaNV.SelectedValue = dgvHoaDon.Rows[r].Cells[2].Value.ToString();
             this.txtNgayLapHD.Text = dgvHoaDon.Rows[r].Cells[3].Value.ToString();
@@ -244,64 +248,85 @@ namespace QuanLyBanHang
         {
             //Mở kết nối
             conn.Open();
-            if(Them)
+            // validate input 
+            if (string.IsNullOrWhiteSpace(this.txtMaHD.Text))
             {
-                try
+                MessageBox.Show("Mã hóa đơn không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (this.cbMaKH.SelectedValue == null)
+            {
+                MessageBox.Show("Vui lòng chọn khách hàng!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (this.cbMaNV.SelectedValue == null)
+            {
+                MessageBox.Show("Vui lòng chọn nhân viên!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else if (string.IsNullOrWhiteSpace(this.txtNgayLapHD.Text))
+            {
+                MessageBox.Show("Ngày lập hóa đơn không được để trống!", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+            }
+            else
+            {
+                if (Them)
                 {
-                    //Thực hiện lệnh
-                    SqlCommand cmd = new SqlCommand();
-                    cmd.Connection = conn;
-                    cmd.CommandType = CommandType.Text;
-                    //Lệnh Insert InTo
-                    cmd.CommandText = System.String.Concat("Insert into HoaDon values(" + "'" +
-                        this.txtMaHD.Text.ToString() + "','" + this.cbMaKH.SelectedValue.ToString() + "','" +
-                        this.cbMaNV.SelectedValue.ToString() + "','" + this.txtNgayLapHD.Text.ToString() + "','" +
-                        this.txtNgayNhanHang.Text.ToString()+"')");
-                    cmd.CommandType = CommandType.Text;
-                    cmd.ExecuteNonQuery();
-                    //Load lại dữ liệu trên DataGridView
-                    LoadData();
-                    //Thông báo
-                    MessageBox.Show("Đã thêm xong!");
-                }
-                catch (SqlException)
-                {
-                    MessageBox.Show("Không thêm được. Lỗi rồi!");
-                }
-            }//if
+                    try
+                    {
 
-            //for updating data
-            if(!Them)
-            {
-                try
+                        //Thực hiện lệnh
+                        SqlCommand cmd = new SqlCommand();
+                        cmd.Connection = conn;
+                        cmd.CommandType = CommandType.Text;
+                        //Lệnh Insert InTo
+                        cmd.CommandText = System.String.Concat("Insert into HoaDon values(" + "'" +
+                            this.txtMaHD.Text.ToString() + "','" + this.cbMaKH.SelectedValue.ToString() + "','" +
+                            this.cbMaNV.SelectedValue.ToString() + "','" + this.txtNgayLapHD.Text.ToString() + "','" +
+                            this.txtNgayNhanHang.Text.ToString() + "')");
+                        cmd.CommandType = CommandType.Text;
+                        cmd.ExecuteNonQuery();
+                        //Load lại dữ liệu trên DataGridView
+                        LoadData();
+                        //Thông báo
+                        MessageBox.Show("Đã thêm xong!");
+                    }
+                    catch (SqlException)
+                    {
+                        MessageBox.Show("Không thêm được. Lỗi rồi!");
+                    }
+                }//if
+
+                //for updating data
+                if (!Them)
                 {
-                    //Thực hiện lệnh
-                    SqlCommand cmd = new SqlCommand();
-                    cmd.Connection = conn;
-                    cmd.CommandType = CommandType.Text;
-                    //Thứ tự dòng hiện hành
-                    int r = dgvHoaDon.CurrentCell.RowIndex;
-                    //MaKH hiện hành
-                    string strMAHD = dgvHoaDon.Rows[r].Cells[0].Value.ToString();
-                    //Câu lệnh SQL
-                    cmd.CommandText = System.String.Concat("Update HoaDon Set MaHD='"+
-                        this.txtMaHD.Text.ToString() + "', MaKH ='" + 
-                        this.cbMaKH.SelectedValue.ToString() + "', MaNV ='" + this.cbMaNV.SelectedValue.ToString() 
-                        + "', NgayLapHD ='" + this.txtNgayLapHD.Text.ToString() + "', MaKH ='" + this.txtNgayNhanHang.Text.ToString() + 
-                        "' where MaHD ='" + strMAHD + "'");
-                    //Cập nhật
-                    cmd.CommandType = CommandType.Text;
-                    cmd.ExecuteNonQuery();
-                    //Load lại dữ liệu lên trên DataGridView
-                    LoadData();
-                    //Thông báo
-                    MessageBox.Show("Đã sửa xong!");
-                }
-                catch(SqlException)
-                {
-                    MessageBox.Show("Không sửa được. Lỗi rồi!");
+                    try
+                    {
+                        //Thực hiện lệnh
+                        SqlCommand cmd = new SqlCommand();
+                        cmd.Connection = conn;
+                        cmd.CommandType = CommandType.Text;
+                        //Thứ tự dòng hiện hành
+                        int r = dgvHoaDon.CurrentCell.RowIndex;
+                        //MaKH hiện hành
+                        string strMAHD = dgvHoaDon.Rows[r].Cells[0].Value.ToString();
+                        //Câu lệnh SQL
+                        cmd.CommandText = System.String.Concat("Update HoaDon Set MaKH ='" +
+                            this.cbMaKH.SelectedValue.ToString() + "', MaNV ='" + this.cbMaNV.SelectedValue.ToString()
+                            + "', NgayLapHD ='" + this.txtNgayLapHD.Text.ToString() + "', NgayNhanHang ='" + this.txtNgayNhanHang.Text.ToString() +
+                            "' where MaHD ='" + strMAHD + "'");
+                        //Cập nhật
+                        cmd.CommandType = CommandType.Text;
+                        cmd.ExecuteNonQuery();
+                        //Load lại dữ liệu lên trên DataGridView
+                        LoadData();
+                        //Thông báo
+                        MessageBox.Show("Đã sửa xong!");
+                    }
+                    catch (SqlException)
+                    {
+                        MessageBox.Show("Không sửa được. Lỗi rồi!");
+                    }
                 }
             }
+            
             //Đóng kết nối
             conn.Close();
         }

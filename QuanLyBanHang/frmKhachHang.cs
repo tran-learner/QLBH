@@ -266,11 +266,19 @@ namespace QuanLyBanHang
             }
 
             //Mở kết nối
-            conn.Open();
+            //conn.Open();
             if(Them)
             {
                 try
                 {
+                    if (this.txtMaKH.Text.Trim() == "" || this.txtTenCty.Text.Trim() == "" ||
+                        this.cbThanhPho.SelectedValue == null ||
+                        this.cbThanhPho.SelectedValue.ToString() == "")
+                    {
+                        MessageBox.Show("Mã khách hàng, tên cong ty và thành phố không được để trống", "Thông báo", MessageBoxButtons.OK, MessageBoxIcon.Warning);
+                        return;
+                    }
+                    conn.Open();
                     //Thực hiện lệnh
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = conn;
@@ -291,6 +299,11 @@ namespace QuanLyBanHang
                 {
                     MessageBox.Show("Không thêm được. Lỗi rồi!");
                 }
+                finally
+                {
+                    //Đóng kết nối
+                    conn.Close();
+                }
             }//if
 
             //for updating data
@@ -298,6 +311,7 @@ namespace QuanLyBanHang
             {
                 try
                 {
+                    conn.Open();
                     //Thực hiện lệnh
                     SqlCommand cmd = new SqlCommand();
                     cmd.Connection = conn;
@@ -324,9 +338,14 @@ namespace QuanLyBanHang
                 {
                     MessageBox.Show("Không sửa được. Lỗi rồi!");
                 }
+                finally
+                {
+                    //Đóng kết nối
+                    conn.Close();
+                }
             }
             //Đóng kết nối
-            conn.Close();
+            //conn.Close();
         }
     }
 }
